@@ -1,0 +1,177 @@
+@import url('https://googleapis.com/css?family=Rubik:300,400,500&display=swap');
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik',sans-serif;
+
+}
+
+body{
+    /*display: flex;*/
+    justify-content: center;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: rgb(182, 79, 11);
+    overflow-x: hidden;
+}
+
+/*h1{
+    text-align: center;
+}*/
+.container{
+    /*position: relative;
+    max-width: 100%;
+    /*display: grid;*/
+    /*grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: minmax(100px,auto);*/
+    margin:0px;
+    grid-auto-flow: dense;
+    
+    
+}
+
+
+
+
+.container .box{
+    background: rgb(182, 79, 11);
+    padding:10px;
+    /*display: grid;*/
+    font-size: 20px;
+    place-items: center;
+    text-align: center;
+    color: white;
+    /*transition: 0.5s;*/
+    width: 100%;
+    
+
+}
+.container1 .box{
+    background: rgb(18, 170, 18);
+    padding:20px;
+    display: grid;
+    font-size: 20px;
+    place-items: center;
+    text-align: center;
+    color: white;
+    transition: 0.5s;
+    
+
+}
+.container2 .box{
+    background: rgb(182, 79, 11);
+    padding:20px;
+    display: grid;
+    font-size: 20px;
+    place-items: center;
+    text-align: center;
+    color: white;
+    transition: 0.5s;
+    
+
+}
+
+.container2 .box:hover{
+    background:rgb(18, 170, 18) ;
+    cursor: pointer;
+}
+.container2 .box img{
+    position: relative;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.container3 .box{
+    background: rgb(30, 133, 218);
+    padding:20px;
+    display: grid;
+    font-size: 20px;
+    place-items: center;
+    text-align: center;
+    color: white;
+    transition: 0.5s;
+    }
+.container4 .box{
+        background: rgb(182, 79, 11);
+        padding:20px;
+        display: grid;
+        font-size: 20px;
+        place-items: center;
+        text-align: center;
+        color: white;
+        transition: 0.5s;
+        }
+
+.container4 .box:hover{
+        background:rgb(30, 133, 218);
+        cursor: pointer;
+    }
+.container4 .box img{
+        position: relative;
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+.container5 .box{
+        background: rgb(248, 4, 4);
+        padding:20px;
+        display: grid;
+        font-size: 20px;
+        place-items: center;
+        text-align: center;
+        color: white;
+        transition: 0.5s;
+        }
+.container6 .box{
+            background: rgb(182, 79, 11);
+            padding:20px;
+            display: grid;
+            font-size: 20px;
+            place-items: center;
+            text-align: center;
+            color: white;
+            transition: 0.5s;
+            }
+    
+.container6 .box:hover{
+            background:rgb(248, 4, 4);
+            cursor: pointer;
+        }
+.container6 .box img{
+            position: relative;
+            max-width: 200px;
+            margin-bottom: 10px;
+        }
+.container7 .box{
+            background: rgb(3, 3, 3);
+            padding:20px;
+            display: grid;
+            font-size: 20px;
+            place-items: center;
+            text-align: center;
+            color: white;
+            transition: 0.5s;
+            }
+.container8 .box{
+                background: rgb(182, 79, 11);
+                padding:20px;
+                display: grid;
+                font-size: 20px;
+                place-items: center;
+                text-align: center;
+                color: white;
+                transition: 0.5s;
+                }
+        
+.container8 .box:hover{
+                background:rgb(0, 0, 0);
+                cursor: pointer;
+            }
+.container8 .box img{
+                position: relative;
+                max-width: 200px;
+                margin-bottom: 10px;
+            }
